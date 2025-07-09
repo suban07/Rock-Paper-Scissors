@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="title">Rock-Paper-Scissors</h1>
+
+    <div class="container">
+        <div class="select-buttons">
+            <div class="symbol">
+                <button class="btn" id="rock" onclick="func('rock')">💪Rock</button>
+                <button class="btn" id="paper" onclick="func('paper')">🖐️Paper</button>
+                <button class="btn" id="scissor" onclick="func('scissor')">✌️Scissor</button>
+            </div>
+            <p> select player choice!</p>
+        </div>
+
+   <section class="display-container">
+    <section class="choice">
+        <div class="pchoices">
+            <h2>player choice :</h2>
+            <p id="player"></p>
+        </div>
+        <div class="cchoices">
+            <h2>Computer Choice :</h2>
+            <p id="computer"></p>
+        </div>
+    </section>
+
+    <section class="score">
+        <div class="pscore">
+            <h2>player score:</h2>
+            <p id="pdisplay">0</p>
+        </div>
+        <div class="cscore">
+            <h2>Computer score :</h2>
+            <p id="cdisplay">0</p>
+        </div>
+    </section>
+        <div id="result"></div>
+        <h1 id="final"></h1>
+</section>
+</div>
+        <section class="Rules">
+            <p>=>1.There are 5 Rounds for every new game</p>
+            <P>=>2.player with most points can win the thrown</P>
+            <p>=>3.It automatically resets the game in 6th round</p>
+            <p>--Good Luck--</p>
+        </section>
+
+
+<footer class="ruless">
+    <button class="desclaimer" onclick="toggle()">
+        !!DESCLAIMER !!
+    </button>
+</footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
